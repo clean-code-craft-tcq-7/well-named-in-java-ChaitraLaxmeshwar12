@@ -1,6 +1,6 @@
 package colorcoder;
 
- static class ColorPair {
+  class ColorPair {
         private MajorColor majorColor;
         private MinorColor minorColor;
         
@@ -44,4 +44,4 @@ package colorcoder;
             return major.getIndex() * numberOfMinorColors + minor.getIndex() + 1;
         }
 
-    };
+    }
