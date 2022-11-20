@@ -1,4 +1,4 @@
- pakcage colorcoder;
+ package colorcoder;
  
  enum MajorColor {
         WHITE(0),
