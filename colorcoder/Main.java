@@ -12,7 +12,8 @@ public class Main {
         ColorPairTest.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
        
        System.out.println("-- Reference Manual --");
-       System.out.println(ColorPair.printColorsAndPairNumber());
+       ColorPair.printColorsAndPairNumber();
+       System.out.println("------");
        
     }
 }
