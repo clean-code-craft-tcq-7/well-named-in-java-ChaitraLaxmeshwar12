@@ -10,5 +10,9 @@ public class Main {
     
         ColorPairTest.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         ColorPairTest.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+       
+       System.out.println("-- Reference Manual --");
+       System.out.println(ColorPair.printColorsAndPairNumber());
+       
     }
 }
