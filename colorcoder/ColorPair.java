@@ -43,5 +43,11 @@ public class ColorPair {
     static int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major.getIndex() * numberOfMinorColors + minor.getIndex() + 1;
     }
+    
+    public static void printColorsAndPairNumber() {
+		for (int i = 1; i <= 25; i++) {
+			System.out.println("Pair Number: " + i + " and Color: " + GetColorFromPairNumber(i).ToString());
+		}
+	}
 
 }
